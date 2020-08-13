@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Cookbook</title>
+    <style type="text/css">
+      <!--
+      /*[attribute]*/
+      a[href] {
+        text-decoration: none;
+      } 
+      /*[attribute=val]*/
+      a[href="http://youtube.com"] {
+        text-decoration: none;
+      } 
+      /*[attribute~=val]*/
+      a[title="tv hd digital"] {
+        text-decoration: none;
+      } 
+      /*[attribute|=val]*/
+      a[title|="anti"] {
+        text-decoration: none;
+      } 
+      /*[attribute^=val]*/
+      a[href^="mailto:"] {
+        padding-right: 15px;
+        background: url(icon-email.png) no-repeat right;
+      } 
+      /*[attribute$=val]*/
+      a[href$='.rss'], a[href$='.atom'] {
+        padding-right: 15px;
+        background: url(icon-rss.png) no-repeat right;
+      } 
+      /*[attribute*=val]*/
+      a[href *='username'] {
+        padding-right: 15px;
+        background: url(icon-star.png) no-repeat right;
+      } 
+      --> 
+    </style>
+  </head>
+  <body>
+    <p>
+      <a href="mailto:">mail to: hello@example.com</a></br>
+    </p> 
+  </body>
+</html>

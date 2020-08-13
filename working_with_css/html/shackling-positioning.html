@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Cookbook</title>
+    <style type="text/css">
+      <!--
+      * {
+        font-family: verdana, arial, sans-serif;
+      }
+      #content {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        margin: 10% auto;
+        background: #2942c4;
+      }
+      #positioned {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+      }
+      div.image {
+        position: relative;
+        z-index: 30;
+        width: 13px;
+        height: 14px;
+        background-image: url(icon-star.png);
+        background-repeat: no-repeat;
+      }
+      --> 
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <img src="icon-email.png" alt="cover" id="positioned" />
+      <img src="icon-email.png" alt="cover" class="image" />
+    </div>
+  </body>
+</html>
