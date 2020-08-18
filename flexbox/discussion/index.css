@@ -1,0 +1,30 @@
+.flex-container {
+  display: flex;
+  /* flex-direction: row | row-reverse | column | column-reverse; */
+  /* flex-wrap: nowrap | wrap | wrap-reverse; */
+  /* flex-flow shorthand for flex-direction and flex-wrap properties*/ 
+  /* flex-flow: row nowrap; */ 
+  /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly; */
+  /* align-items: flex-start | flex-end | center | stretch | baseline; */
+  /* align-content: flex-start | flex-end | center | stretch | space-between | space-around; */ 
+}
+
+.flex-item {
+  /* order: 5; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 3; */
+  /* flex-basis: auto; */
+  /* shorthand for flex-grow, flex-shrink, flex-basis */ 
+  /* flex: none; */
+  /* align-self: auto | flex-start | flex-end | center | baseline | stretch; */
+  background: tomato; 
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}

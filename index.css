@@ -1,13 +1,20 @@
-#body-class {
+
+/* for main class */
+#main {
   padding: 40px;
   margin: 50px;
-}
-.hello {
   color: red;
+}
+/* end for main class */
+h1 {
+  color: yellow;
+}
+#id {
+  color: pink; 
+}
+.class {
+  color: blue;
 }
 p {
   color: blue;
-}
-#id {
-  color: violet;
 }
