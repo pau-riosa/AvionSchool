@@ -16,6 +16,7 @@ const calculate = (n1, operator, n2) => {
 
   return result
 }
+
 keys.addEventListener('click', e => {
   if (e.target.matches('button')) {
     const key = e.target
